@@ -33,6 +33,7 @@ export function Navbar() {
     <div className="flex items-center rounded-full border border-border bg-background/50 p-0.5 font-mono text-xs" role="group" aria-label="Language">
       {(["pt", "en"] as const).map((l) => (
         <button
+          type="button"
           key={l}
           onClick={() => setLang(l)}
           aria-pressed={lang === l}
@@ -50,7 +51,7 @@ export function Navbar() {
   return (
     <header className={cn("fixed inset-x-0 top-0 z-50 transition-all duration-300", scrolled ? "glass border-x-0 border-t-0" : "border-b border-transparent")}>
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 md:px-8">
-        <a href="#home" className="font-display text-lg font-bold tracking-tight">
+        <a href="#home" aria-label="EMILLY.DEV — Home" className="font-display text-lg font-bold tracking-tight">
           EMILLY<span className="text-primary">.DEV</span>
         </a>
         <ul className="hidden items-center gap-1 lg:flex">
@@ -72,7 +73,7 @@ export function Navbar() {
         <div className="hidden lg:block"><LangSwitch /></div>
         <div className="flex items-center gap-3 lg:hidden">
           <LangSwitch />
-          <button onClick={() => setOpen(!open)} aria-label="Menu" aria-expanded={open} className="rounded-md p-2 text-foreground">
+          <button onClick={() => setOpen(!open)} aria-label={open ? t.contact.closeMenu : t.contact.openMenu} aria-expanded={open} className="rounded-md p-2 text-foreground">
             {open ? <X size={20} /> : <Menu size={20} />}
           </button>
         </div>

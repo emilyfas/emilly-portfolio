@@ -64,11 +64,11 @@ export function Hero() {
       <div className="glow-orb absolute -top-40 left-1/4 h-[500px] w-[500px] opacity-40" aria-hidden />
       <div className="relative mx-auto grid w-full max-w-6xl items-center gap-16 px-5 py-20 md:px-8 lg:grid-cols-[1.1fr_1fr]">
         <div>
-          <p className="animate-fade-up inline-flex items-center gap-2 rounded-full border border-border bg-surface/60 px-3 py-1.5 font-mono text-[11px] tracking-[0.2em] text-primary">
+          <p className="animate-fade-up inline-flex items-center gap-2 rounded-full border border-border bg-surface/60 px-3 py-1.5 font-mono text-[10px] tracking-[0.15em] sm:text-[11px] sm:tracking-[0.2em] text-primary">
             <span className="h-1.5 w-1.5 rounded-full bg-primary shadow-glow" />
             {t.hero.label}
           </p>
-          <h1 className="animate-fade-up mt-6 text-5xl font-bold leading-[1.02] md:text-7xl" style={{ animationDelay: "100ms" }}>
+          <h1 className="animate-fade-up mt-6 text-4xl font-bold leading-[1.05] sm:text-5xl md:text-7xl" style={{ animationDelay: "100ms" }}>
             {t.hero.title1}<br /><span className="text-gradient">{t.hero.title2}</span>
           </h1>
           <p className="animate-fade-up mt-6 max-w-lg text-lg leading-relaxed text-muted-foreground" style={{ animationDelay: "200ms" }}>
