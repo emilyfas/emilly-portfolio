@@ -13,7 +13,9 @@ export const Route = createFileRoute("/")({
       { property: "og:description", content: "Projects, experience and skills of Emilly, Computer Science student and technology enthusiast." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:url", content: "https://emily-bilingual-dev-showcase.lovable.app/" },
     ],
+    links: [{ rel: "canonical", href: "https://emily-bilingual-dev-showcase.lovable.app/" }],
   }),
   component: Index,
 });
