@@ -49,7 +49,7 @@ function Terminal() {
           ))}
         </div>
       </div>
-      <div className="glass absolute -bottom-6 -left-6 hidden rounded-xl px-4 py-3 font-mono text-xs sm:block">
+      <div className="glass absolute -bottom-12 -left-6 hidden rounded-xl px-4 py-3 font-mono text-xs sm:block">
         <span className="text-muted-foreground">SELECT</span> <span className="text-primary">insight</span> <span className="text-muted-foreground">FROM data;</span>
       </div>
     </div>
