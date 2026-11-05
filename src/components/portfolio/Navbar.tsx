@@ -51,7 +51,7 @@ export function Navbar() {
     <header className={cn("fixed inset-x-0 top-0 z-50 transition-all duration-300", scrolled ? "glass border-x-0 border-t-0" : "border-b border-transparent")}>
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 md:px-8">
         <a href="#home" className="font-display text-lg font-bold tracking-tight">
-          EMILY<span className="text-primary">.DEV</span>
+          EMILLY<span className="text-primary">.DEV</span>
         </a>
         <ul className="hidden items-center gap-1 lg:flex">
           {ids.map((id) => (

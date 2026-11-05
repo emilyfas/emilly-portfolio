@@ -78,9 +78,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Emily.dev" },
-      { name: "description", content: "Emily's developer portfolio." },
-      { name: "author", content: "Emily" },
+      { title: "Emilly.dev" },
+      { name: "description", content: "Emilly's developer portfolio." },
+      { name: "author", content: "Emilly" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },

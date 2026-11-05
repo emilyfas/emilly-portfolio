@@ -5,7 +5,7 @@ import { profile } from "./profile";
 
 const lines = [
   { p: "$", c: "whoami" },
-  { o: "emily — cs student" },
+  { o: "emilly — cs student" },
   { p: "$", c: "cat interests.json" },
   { o: '["software", "data", "bi"]' },
   { p: "$", c: "run build --future" },
@@ -28,7 +28,7 @@ function Terminal() {
           <span className="h-3 w-3 rounded-full bg-terminal-red" />
           <span className="h-3 w-3 rounded-full bg-terminal-yellow" />
           <span className="h-3 w-3 rounded-full bg-primary" />
-          <span className="ml-3 font-mono text-xs text-muted-foreground">~/emily.dev — zsh</span>
+          <span className="ml-3 font-mono text-xs text-muted-foreground">~/emilly.dev — zsh</span>
         </div>
         <div className="min-h-[260px] space-y-2 p-5 font-mono text-sm">
           {lines.slice(0, count).map((l, i) =>
