@@ -7,10 +7,10 @@ import { About, Projects, Experience, Skills, Contact, Footer } from "@/componen
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Emily.dev — Computer Science Student & Developer" },
-      { name: "description", content: "Portfolio of Emily, a Computer Science student focused on software development, data analysis and business intelligence." },
-      { property: "og:title", content: "Emily.dev — Building solutions through technology" },
-      { property: "og:description", content: "Projects, experience and skills of Emily, Computer Science student and technology enthusiast." },
+      { title: "Emilly.dev — Computer Science Student & Developer" },
+      { name: "description", content: "Portfolio of Emilly, a Computer Science student focused on software development, data analysis and business intelligence." },
+      { property: "og:title", content: "Emilly.dev — Building solutions through technology" },
+      { property: "og:description", content: "Projects, experience and skills of Emilly, Computer Science student and technology enthusiast." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

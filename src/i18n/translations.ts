@@ -8,7 +8,7 @@ export const translations = {
       title1: "Building solutions",
       title2: "through technology.",
       intro:
-        "I'm Emily, a Computer Science student passionate about software development, data analysis and turning ideas into useful digital products.",
+        "I'm Emilly, a Computer Science student passionate about software development, data analysis and turning ideas into useful digital products.",
       ctaProjects: "Explore my projects",
       status: "Open to opportunities",
     },
@@ -59,7 +59,7 @@ export const translations = {
       copy: "Copy",
       copied: "Copied!",
     },
-    footer: { rights: "Designed & built by Emily.", back: "Back to top" },
+    footer: { rights: "Designed & built by Emilly.", back: "Back to top" },
   },
   pt: {
     nav: { home: "Início", about: "Sobre", projects: "Projetos", experience: "Experiência", skills: "Habilidades", contact: "Contato" },
@@ -68,7 +68,7 @@ export const translations = {
       title1: "Construindo soluções",
       title2: "através da tecnologia.",
       intro:
-        "Sou a Emily, estudante de Ciência da Computação apaixonada por desenvolvimento de software, análise de dados e por transformar ideias em produtos digitais úteis.",
+        "Sou a Emilly, estudante de Ciência da Computação apaixonada por desenvolvimento de software, análise de dados e por transformar ideias em produtos digitais úteis.",
       ctaProjects: "Explorar meus projetos",
       status: "Aberta a oportunidades",
     },
@@ -119,7 +119,7 @@ export const translations = {
       copy: "Copiar",
       copied: "Copiado!",
     },
-    footer: { rights: "Desenhado e desenvolvido por Emily.", back: "Voltar ao topo" },
+    footer: { rights: "Desenhado e desenvolvido por Emilly.", back: "Voltar ao topo" },
   },
 } as const;
 
