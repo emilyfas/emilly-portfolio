@@ -10,6 +10,7 @@ export default function CustomScrollbar() {
   const dragging = useRef(false);
   const dragStartY = useRef(0);
   const dragStartTop = useRef(0);
+  const trackRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     function updateScrollbar() {
@@ -22,7 +23,7 @@ export default function CustomScrollbar() {
         return;
       }
 
-      const trackHeight = viewportHeight - 180;
+      const trackHeight = trackRef.current?.clientHeight ?? viewportHeight;
       const thumbHeight = Math.max(
         36,
         (viewportHeight / scrollHeight) * trackHeight
@@ -68,7 +69,7 @@ export default function CustomScrollbar() {
     if (!dragging.current) return;
 
     const viewportHeight = window.innerHeight;
-    const trackHeight = viewportHeight - 180;
+    const trackHeight = trackRef.current?.clientHeight ?? viewportHeight;
     const maxThumbTop = trackHeight - scrollbar.height;
 
     const scrollHeight = document.documentElement.scrollHeight;
@@ -95,7 +96,8 @@ export default function CustomScrollbar() {
 
   return (
     <div
-      className="fixed right-4 top-20 bottom-20 z-[9999] flex w-4 justify-center"
+      ref={trackRef}
+      className="fixed right-0 sm:right-1 md:right-4 top-20 bottom-40 md:bottom-30 md:bottom-25 z-[9999] flex w-4 justify-center"
       aria-hidden="true"
     >
       <div
@@ -126,7 +128,11 @@ export default function CustomScrollbar() {
           }
         }}
       >
-          <div
+        {/* Background track */}
+        <div className="absolute inset-0 w-2.5 mx-auto rounded-full bg-white/2" />
+
+
+        <div
           onPointerDown={handlePointerDown}
           onPointerMove={handlePointerMove}
           onPointerUp={handlePointerUp}

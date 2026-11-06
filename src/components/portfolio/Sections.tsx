@@ -189,7 +189,7 @@ export function Skills() {
               </div>
               <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3">
                 {skills[key].map((skill, n) => (
-                  <li key={n} className="truncate rounded-lg border border-border bg-background/50 px-3 py-2.5 text-center font-mono text-xs text-muted-foreground transition-colors hover:border-primary/50 hover:text-foreground">{skill[lang]}</li>
+                  <li key={n} className="flex min-h-10 items-center justify-center rounded-lg border border-border bg-background/50 px-2 py-2.5 text-center font-mono text-xs leading-relaxed text-muted-foreground break-words transition-colors hover:border-primary/50 hover:text-foreground">{skill[lang]}</li>
                 ))}
               </ul>
             </div>
@@ -215,17 +215,17 @@ export function Contact() {
   ];
   return (
     <Section id="contact">
-      <Reveal className="card-surface relative overflow-hidden rounded-3xl p-8 md:p-14">
+      <Reveal className="card-surface relative w-full min-w-0 overflow-hidden rounded-3xl p-5 sm:p-8 md:p-14">
         <div className="bg-grid absolute inset-0" aria-hidden />
         <div className="glow-orb absolute -right-20 -top-20 h-80 w-80 opacity-50" aria-hidden />
-        <div className="relative grid min-w-0 gap-12 lg:grid-cols-2">
+        <div className="relative grid w-full min-w-0 grid-cols-1 gap-8 md:gap-12 lg:grid-cols-2">
           <div>
             <p className="mb-4 font-mono text-xs uppercase tracking-[0.25em] text-primary">{c.kicker}</p>
             <h2 className="text-3xl font-semibold leading-tight sm:text-4xl md:text-5xl">{c.title}</h2>
             <p className="mt-4 max-w-md text-muted-foreground">{c.subtitle}</p>
           </div>
           <div className="space-y-3">
-            <div className="glass flex items-center justify-between gap-3 rounded-xl p-4">
+            <div className="glass flex min-w-0 items-center justify-between gap-2 rounded-xl p-3 sm:p-4">
               <a href={`mailto:${profile.email}`} className="flex min-w-0 items-center gap-4">
                 <Mail size={20} className="shrink-0 text-primary" />
                 <span className="min-w-0"><span className="block text-xs text-muted-foreground">{c.email}</span><span className="block truncate">{profile.email}</span></span>
@@ -235,7 +235,7 @@ export function Contact() {
               </button>
             </div>
             {links.map(({ label, href, icon: Icon, value }) => (
-              <a key={label} href={href} target="_blank" rel="noreferrer" className="glass group flex items-center justify-between gap-3 rounded-xl p-4 transition-colors hover:border-primary/50">
+              <a key={label} href={href} target="_blank" rel="noreferrer" className="glass group flex min-w-0 items-center justify-between gap-2 rounded-xl p-3 sm:p-4 transition-colors hover:border-primary/50">
                 <span className="flex min-w-0 items-center gap-4">
                   <Icon size={20} className="shrink-0 text-primary" />
                   <span className="min-w-0"><span className="block text-xs text-muted-foreground">{label}</span><span className="block truncate">{value}</span></span>
