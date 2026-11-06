@@ -1,8 +1,12 @@
-# EMILLY.DEV
-
-### Personal Portfolio · Software Development · Data Analysis
-
+# EMILLY.DEV - Personal Portfolio
+---
 A personal portfolio website designed to showcase my projects, technical skills, professional experience, and journey in technology.
+
+<p align="center">
+  <a href="https://emilyfas.github.io/emilly-portfolio/" target="_blank" rel="noopener noreferrer">
+    <img src="public/screenshots/portfolio-preview.png" alt="EMILLY.DEV Portfolio Preview" width="100%">  
+  </a>
+</p>
 
 Built with a focus on clean design, responsiveness, and accessibility, the website brings together my interests in software development, data analysis, and automation.
 
@@ -128,7 +132,7 @@ I'm currently building my experience in the technology field and looking forward
 ---
 
 <p align="center">
-  Developed with curiosity and code by <strong>Emilly Fernandes</strong>.
+  Developed by <strong>Emilly Fernandes</strong>.
   <br>
   © 2026 EMILLY.DEV
 </p>

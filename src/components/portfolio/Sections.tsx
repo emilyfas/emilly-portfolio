@@ -82,7 +82,10 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
       <div className="flex flex-1 flex-col p-6">
         <h3 className="flex items-start justify-between gap-2 text-lg font-semibold">
           {title}
-          <ArrowUpRight size={18} aria-hidden className="shrink-0 text-muted-foreground transition-all group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-primary" />
+          {project.github && <a href={project.github} target="_blank" rel="noreferrer" aria-label={`${p.code}: ${title}`} className="inline-flex items-center gap-1.5 text-muted-foreground transition-colors hover:text-primary">
+            <ArrowUpRight size={18} aria-hidden className="shrink-0 text-muted-foreground transition-all group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-primary" />
+          </a>}
+          
         </h3>
         <p className="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">{project.description[lang]}</p>
         <div className="mt-5 flex flex-wrap gap-2">{project.technologies.map((tech, i) => <Tag key={i}>{tech}</Tag>)}</div>
