@@ -120,11 +120,11 @@
     {
       company: { en: "Iveco Group", pt: "Iveco Group" },
       position: { en: "Tech Intern", pt: "Estagiário de Tecnologia" },
-      dates: { en: "2026/11 — 2028/11", pt: "11/2026 — 11/2028" },
+      dates: { en: "2026/11 — Now", pt: "11/2026 — Atual" },
       responsibilities: [
         { en: "Monitoring and managing tickets related to AMS (Application Management Services).", pt: "Acompanhamento e gestão de tickets relacionados aos serviços de AMS (Application Management Services)." },
-        { en: "Providing user support to Finance and related departments.", pt: "Suporte aos usuários das áreas de Finanças e departamentos correlatos." },
         { en: "Creating, reviewing, and updating technical documentation, including user manuals and operational procedures.", pt: "Elaboração, revisão e atualização de documentação técnica, incluindo manuais de usuário e procedimentos operacionais." },
+        { en: "Providing user support to Finance and related departments.", pt: "Suporte aos usuários das áreas de Finanças e departamentos correlatos." },
         { en: "Participating in activities and processes guided by Agile methodologies.", pt: "Atuação em atividades e processos orientados por metodologias ágeis." },
       ],
       tools: ["[Python]", "[Excel]", "[Power BI]"],
@@ -134,9 +134,9 @@
       position: { en: "Quality Operations Analyst", pt: "Analista de Qualidade Operacional" },
       dates: { en: "2025/06 — 2026/10", pt: "06/2025 — 10/2026" },
       responsibilities: [
-        { en: "Evaluation of customer interactions and compliance with quality standards.", pt: "Avaliação de atendimentos e conformidade com padrões de qualidade." },
         { en: "Monitoring of performance indicators and operational analysis.", pt: "Monitoramento de indicadores e análise de desempenho operacional." },
         { en: "Report preparation and identification of improvement opportunities.", pt: "Elaboração de relatórios e identificação de oportunidades de melhoria." },
+        { en: "Evaluation of customer interactions and compliance with quality standards.", pt: "Avaliação de atendimentos e conformidade com padrões de qualidade." },
       ],
       tools: ["[Excel]", "[Word]", "[Power BI]"],
     },
