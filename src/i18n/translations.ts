@@ -19,8 +19,19 @@ export const translations = {
       interests: "Interests",
       goals: "Career goals",
     },
+    
+    experience: {
+      kicker: "02 — Experience",
+      title: "Professional journey",
+      present: "Present",
+      tools: "Tools & technologies",
+      position: "[Position]",
+      company: "[Company]",
+      dates: "[Start] — [End]",
+      resp: ["[Responsibility or activity]", "[Responsibility or activity]", "[Tools or technologies used]"],
+    },
     projects: {
-      kicker: "02 — Projects",
+      kicker: "03 — Projects",
       title: "Selected work",
       subtitle: "A space for the projects I build and learn from.",
       all: "All",
@@ -29,16 +40,6 @@ export const translations = {
       placeholderDesc: "[Short description of the problem, your approach and what you built.]",
       code: "Code",
       demo: "Live demo",
-    },
-    experience: {
-      kicker: "03 — Experience",
-      title: "Professional journey",
-      present: "Present",
-      tools: "Tools & technologies",
-      position: "[Position]",
-      company: "[Company]",
-      dates: "[Start] — [End]",
-      resp: ["[Responsibility or activity]", "[Responsibility or activity]", "[Tools or technologies used]"],
     },
     skills: {
       kicker: "04 — Skills",

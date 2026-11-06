@@ -3,7 +3,7 @@ import { Menu, X } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
 import { cn } from "@/lib/utils";
 
-const ids = ["home", "about", "projects", "experience", "skills", "contact"] as const;
+const ids = ["home", "about", "experience", "projects", "skills", "contact"] as const;
 
 export function Navbar() {
   const { t, lang, setLang } = useLanguage();

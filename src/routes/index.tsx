@@ -27,8 +27,8 @@ function Index() {
       <main>
         <Hero />
         <About />
-        <Projects />
         <Experience />
+        <Projects />
         <Skills />
         <Contact />
       </main>
