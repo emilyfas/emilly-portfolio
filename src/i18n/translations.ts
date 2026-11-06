@@ -8,22 +8,16 @@ export const translations = {
       title1: "Building solutions",
       title2: "through technology.",
       intro:
-        "I'm Emilly, a Computer Science student passionate about software development, data analysis and turning ideas into useful digital products.",
+        "I'm Emilly Fernandes, a Computer Science student passionate about programming, data analysis and turning ideas into useful digital products.",
       ctaProjects: "Explore my projects",
       status: "Open to opportunities",
     },
     about: {
       kicker: "01 — About",
-      title: "A curious mind at the intersection of code and data.",
-      p1: "[Write a short personal introduction here — who you are, what drives you and what you enjoy building.]",
-      p2: "[Describe your professional journey and interests — e.g. software development, data analysis and business intelligence.]",
+      title: "Turning curiosity into solutions through technology and data.",
       education: "Education",
-      degree: "B.Sc. in Computer Science",
-      school: "[University name]",
-      period: "[Start year] — [Expected graduation]",
       interests: "Interests",
       goals: "Career goals",
-      interestList: ["Software Development", "Data Analysis", "Business Intelligence", "Technology"],
     },
     projects: {
       kicker: "02 — Projects",
@@ -50,7 +44,7 @@ export const translations = {
       kicker: "04 — Skills",
       title: "Technology stack",
       subtitle: "Add the tools and technologies you actually work with.",
-      groups: { languages: "Programming Languages", data: "Data Analysis", dev: "Development Tools", other: "Other Technologies" },
+      groups: { languages: "Programming Languages", data: "Data Analysis", dev: "Development Tools", other: "Soft Skills" },
       item: "[Skill]",
     },
     contact: {
@@ -65,7 +59,7 @@ export const translations = {
       closeMenu: "Close menu",
       empty: "No projects in this category yet.",
     },
-    footer: { rights: "Designed & built by Emilly.", back: "Back to top" },
+    footer: { rights: "Developed by Emilly Fernandes.", back: "Back to top" },
   },
   pt: {
     nav: { home: "Início", about: "Sobre", projects: "Projetos", experience: "Experiência", skills: "Habilidades", contact: "Contato" },
@@ -74,22 +68,16 @@ export const translations = {
       title1: "Construindo soluções",
       title2: "através da tecnologia.",
       intro:
-        "Sou a Emilly, estudante de Ciência da Computação apaixonada por desenvolvimento de software, análise de dados e por transformar ideias em produtos digitais úteis.",
+        "Sou a Emilly Fernandes, estudante de Ciência da Computação apaixonada por programação, análise de dados e por transformar ideias em produtos digitais úteis.",
       ctaProjects: "Explorar meus projetos",
       status: "Aberta a oportunidades",
     },
     about: {
       kicker: "01 — Sobre",
-      title: "Uma mente curiosa na interseção entre código e dados.",
-      p1: "[Escreva aqui uma breve apresentação pessoal — quem você é, o que te motiva e o que gosta de construir.]",
-      p2: "[Descreva sua trajetória profissional e interesses — ex.: desenvolvimento de software, análise de dados e business intelligence.]",
+      title: "Transformando curiosidade em soluções por meio da tecnologia e dos dados.",
       education: "Formação",
-      degree: "Bacharelado em Ciência da Computação",
-      school: "[Nome da universidade]",
-      period: "[Ano de início] — [Previsão de conclusão]",
       interests: "Interesses",
       goals: "Objetivos de carreira",
-      interestList: ["Desenvolvimento de Software", "Análise de Dados", "Business Intelligence", "Tecnologia"],
     },
     projects: {
       kicker: "02 — Projetos",
@@ -116,8 +104,8 @@ export const translations = {
       kicker: "04 — Habilidades",
       title: "Stack de tecnologias",
       subtitle: "Adicione as ferramentas e tecnologias com as quais você realmente trabalha.",
-      groups: { languages: "Linguagens de Programação", data: "Análise de Dados", dev: "Ferramentas de Desenvolvimento", other: "Outras Tecnologias" },
-      item: "[Habilidade]",
+      groups: { languages: "Linguagens de Programação", data: "Análise de Dados", dev: "Ferramentas de Desenvolvimento", other: "Soft Skills" },
+      item: "Comunicação, Trabalho em equipe, Resolução de problemas",
     },
     contact: {
       kicker: "05 — Contato",
@@ -131,7 +119,7 @@ export const translations = {
       closeMenu: "Fechar menu",
       empty: "Nenhum projeto nesta categoria ainda.",
     },
-    footer: { rights: "Desenhado e desenvolvido por Emilly.", back: "Voltar ao topo" },
+    footer: { rights: "Desenvolvido por Emilly Fernandes.", back: "Voltar ao topo" },
   },
 } as const;
 

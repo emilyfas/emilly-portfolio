@@ -1,142 +1,134 @@
-# Emily Bilingual Dev Showcase
+# EMILLY.DEV
 
-Create a modern, futuristic and highly polished personal developer portfolio website.
+### Personal Portfolio · Software Development · Data Analysis
 
-PROJECT CONCEPT:
-A personal portfolio for Emily, a Computer Science student and technology enthusiast interested in software development, data analysis and business intelligence.
+A personal portfolio website designed to showcase my projects, technical skills, professional experience, and journey in technology.
 
-VISUAL IDENTITY:
+Built with a focus on clean design, responsiveness, and accessibility, the website brings together my interests in software development, data analysis, and automation.
 
-Dark futuristic aesthetic.
+🌐 **Live Website:** [emilly-portfolio](https://emilyfas.github.io/emilly-portfolio/)
 
-Main background: deep black (#0B0F14).
+---
 
-Secondary backgrounds: dark blue-gray (#121923).
+## Overview
 
-Accent color: neon lime green (#A3E635).
+EMILLY.DEV is my personal space on the web, where I share projects, document my learning journey, and present my professional background.
 
-White primary typography and muted gray secondary text.
+The website features a minimalist dark interface with green accents, inspired by terminal environments and developer tools.
 
-Modern typography, preferably Inter or Space Grotesk.
+It is designed to be continuously updated as I develop new skills and work on new projects.
 
-Subtle grid backgrounds, glowing accents and sophisticated gradients.
+## Features
 
-Smooth animations and transitions.
+- **Bilingual Interface:** Full support for English and Portuguese.
+- **Responsive Design:** Adapted for desktop, tablet, and mobile devices.
+- **Projects Showcase:** Organized project gallery with category filtering.
+- **Professional Experience:** Overview of my professional background and responsibilities.
+- **Skills Section:** Technical skills, programming languages, and soft skills.
+- **Contact Section:** Direct access to my professional contact channels.
+- **Interactive Elements:** Subtle animations, hover effects, and visual transitions.
 
-Glassmorphism used sparingly.
+## Tech Stack
 
-Professional, clean and innovative appearance.
+The project was developed using the following technologies:
 
-IMPORTANT:
-Avoid generic portfolio templates. The website should look like a premium technology professional's personal website.
+| Technology | Purpose |
+|---|---|
+| React | Component-based user interface |
+| TypeScript | Static typing and maintainability |
+| Vite | Development environment and build tooling |
+| Tailwind CSS | Styling and responsive layouts |
+| TanStack Start | Application framework |
+| Lucide React | Interface icons |
 
-WEBSITE STRUCTURE:
+## Project Structure
 
-NAVIGATION
+```text
+emilly-portfolio/
+├── public/
+│   └── projects/          # Project demonstration images and GIFs
+├── src/
+│   ├── components/        # Reusable interface components
+│   ├── data/              # Portfolio content and translations
+│   ├── routes/            # Application routes
+│   └── ...
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
+```
 
-Logo: EMILY.DEV
+*The structure may evolve as the project develops.*
 
-Home
+## Getting Started
 
-About
+To run the project locally, follow these steps.
 
-Projects
+### Prerequisites
 
-Experience
+- Node.js
+- npm
+- Git
 
-Skills
+### Installation
 
-Contact
+Clone the repository:
 
-Language switcher (PT / EN)
+```bash
+git clone https://github.com/emilyfas/emilly-portfolio.git
+```
 
-HERO SECTION
+Navigate to the project directory:
 
-Small label: "HELLO WORLD! WELCOME TO MY SPACE"
+```bash
+cd emilly-portfolio
+```
 
-Main headline: "Building solutions through technology."
+Install dependencies:
 
-Short introduction describing Emily as a Computer Science student interested in software development, data analysis and technology.
+```bash
+npm install
+```
 
-CTA buttons: "Explore my projects" and "GitHub".
+Start the development server:
 
-An innovative visual element on the right side, inspired by terminal interfaces, code snippets or interactive technology elements.
-
-ABOUT SECTION
-
-Personal introduction.
-
-Computer Science academic background.
-
-Professional journey and interests.
-
-PROJECTS SECTION
-
-Modern project cards.
-
-Space for project descriptions, technologies, GitHub links and live demos.
-
-Categories: Software Development, Data Analysis and Academic Projects.
-
-EXPERIENCE SECTION
-
-Professional experience displayed as a modern timeline.
-
-Space for company, position, dates and responsibilities.
-
-SKILLS SECTION
-
-Organized technology cards.
-
-Programming languages, data tools, development tools and other technologies.
-
-CONTACT SECTION
-
-Modern contact area with GitHub, LinkedIn and email links.
-
-FUNCTIONAL REQUIREMENTS:
-
-Fully responsive.
-
-Working navigation with smooth scrolling.
-
-Functional PT/EN language switcher.
-
-Reusable components.
-
-Accessible contrast and readable typography.
-
-Subtle hover effects and animations.
-
-Clean, organized code.
-
-TECHNICAL REQUIREMENTS:
-Use React, TypeScript and Tailwind CSS.
-Use Lucide icons.
-Keep the project structure clean and maintainable.
-
-IMPORTANT CONTENT RULE:
-Do not invent professional experience, achievements, technical skills or project results. Use editable placeholders whenever information is missing.
-
-First, build the complete visual structure and navigation. Prioritize design quality, consistency and user experience.
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/61a0a0da-7921-567d-a2e1-a69ab2be5911).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+```bash
 npm run dev
 ```
+
+The application will be available at the local address provided by Vite.
+
+### Production Build
+
+To generate the production build:
+
+```bash
+npm run build
+```
+
+To preview the production version locally:
+
+```bash
+npm run preview
+```
+
+## About Me
+
+I'm Emilly Fernandes, a Computer Science student interested in software development, data analysis, and automation.
+
+I enjoy learning new technologies, solving problems, and building practical solutions while continuously developing my technical and professional skills.
+
+I'm currently building my experience in the technology field and looking forward to new challenges and opportunities.
+
+## Connect With Me
+
+- **GitHub:** [@emilyfas](https://github.com/emilyfas)
+- **LinkedIn:** [Emilly Fernandes](https://www.linkedin.com/in/emilly-fernandes/)
+- **Email:** emilly.fernandesads@gmail.com
+
+---
+
+<p align="center">
+  Developed with curiosity and code by <strong>Emilly Fernandes</strong>.
+  <br>
+  © 2026 EMILLY.DEV
+</p>

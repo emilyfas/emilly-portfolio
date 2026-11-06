@@ -7,7 +7,7 @@ const lines = [
   { p: "$", c: "whoami" },
   { o: "emilly — cs student" },
   { p: "$", c: "cat interests.json" },
-  { o: '["software", "data", "bi"]' },
+  { o: '["software", "data", "automation"]' },
   { p: "$", c: "run build --future" },
   { o: "✓ compiling ideas into solutions" },
 ];
@@ -41,7 +41,7 @@ function Terminal() {
           <p><span className="text-primary">$</span> <span className="inline-block h-4 w-2 translate-y-0.5 bg-primary animate-blink" /></p>
         </div>
         <div className="grid grid-cols-3 border-t border-border font-mono text-[11px] text-muted-foreground">
-          {[["lang", "TS · PY · SQL"], ["focus", "dev + data"], ["status", "learning"]].map(([k, v]) => (
+          {[["lang", "PY · JAVA · SQL"], ["focus", "dev + data"], ["status", "learning"]].map(([k, v]) => (
             <div key={k} className="border-r border-border px-4 py-3 last:border-r-0">
               <p className="uppercase tracking-wider opacity-60">{k}</p>
               <p className="mt-1 text-foreground">{v}</p>

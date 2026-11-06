@@ -49,12 +49,35 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
   const Icon = catIcon[project.category];
   const title = project.title[lang];
   return (
-    <article className="card-surface group relative flex h-full flex-col overflow-hidden rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:border-primary/40">
-      <div className="relative flex h-40 items-center justify-center overflow-hidden border-b border-border bg-background">
+    <article className="card-surface group relative flex min-h-[530px] flex-col overflow-hidden rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:border-primary/40">
+      <div className="relative flex h-48 items-center justify-center overflow-hidden border-b border-border bg-background">
         <div className="bg-grid absolute inset-0" />
-        <Icon size={40} aria-hidden className="relative text-primary/70 transition-transform duration-500 group-hover:scale-110" strokeWidth={1.25} />
-        <span className="absolute left-4 top-4 font-mono text-[10px] uppercase tracking-widest text-muted-foreground">{p.categories[project.category]}</span>
-        <span className="absolute right-4 top-4 font-mono text-[10px] text-muted-foreground">{String(index + 1).padStart(2, "0")}</span>
+
+        {project.image ? (
+          <img
+            src={`${import.meta.env.BASE_URL}${project.image}`}
+            alt={`${title} - demonstração do projeto`}
+            className="relative z-10 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            loading="lazy"
+          />
+        ) : (
+          <Icon
+            size={40}
+            aria-hidden
+            className="relative text-primary/70 transition-transform duration-500 group-hover:scale-110"
+            strokeWidth={1.25}
+          />
+        )}
+
+        <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-b from-background/80 via-background/20 to-transparent" />
+
+        <span className="absolute left-4 top-4 z-20 font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
+          {p.categories[project.category]}
+        </span>
+
+        <span className="absolute right-4 top-4 z-20 font-mono text-[10px] text-muted-foreground">
+          {String(index + 1).padStart(2, "0")}
+        </span>
       </div>
       <div className="flex flex-1 flex-col p-6">
         <h3 className="flex items-start justify-between gap-2 text-lg font-semibold">
@@ -142,7 +165,7 @@ export function Experience() {
 }
 
 export function Skills() {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
   const s = t.skills;
   const groups = [
     { key: "languages", icon: Terminal },
@@ -163,7 +186,7 @@ export function Skills() {
               </div>
               <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3">
                 {skills[key].map((skill, n) => (
-                  <li key={n} className="truncate rounded-lg border border-border bg-background/50 px-3 py-2.5 text-center font-mono text-xs text-muted-foreground transition-colors hover:border-primary/50 hover:text-foreground">{skill}</li>
+                  <li key={n} className="truncate rounded-lg border border-border bg-background/50 px-3 py-2.5 text-center font-mono text-xs text-muted-foreground transition-colors hover:border-primary/50 hover:text-foreground">{skill[lang]}</li>
                 ))}
               </ul>
             </div>
