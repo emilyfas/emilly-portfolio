@@ -1,5 +1,4 @@
 # EMILLY.DEV - Personal Portfolio
----
 A personal portfolio website designed to showcase my projects, technical skills, professional experience, and journey in technology.
 
 <p align="center">
@@ -132,7 +131,7 @@ I'm currently building my experience in the technology field and looking forward
 ---
 
 <p align="center">
-  Developed by <strong>Emilly Fernandes</strong>.
+  Developed by <strong>Emilly Fernandes</strong>. <img src="https://media.giphy.com/media/7j2hfyeVcDtf2/giphy.gif" width="50" />
   <br>
   © 2026 EMILLY.DEV
 </p>
