@@ -128,10 +128,6 @@ export default function CustomScrollbar() {
           }
         }}
       >
-        {/* Background track */}
-        <div className="absolute inset-0 w-2.5 mx-auto rounded-full bg-white/2" />
-
-
         <div
           onPointerDown={handlePointerDown}
           onPointerMove={handlePointerMove}
